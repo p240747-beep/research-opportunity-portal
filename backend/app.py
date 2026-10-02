@@ -107,7 +107,7 @@ def create_app(connection_factory=None):
                 return serialize(cursor.fetchone())
 
     def valid_id(identifier):
-        return identifier.isascii() and identifier.isdigit() and 1 <= int(identifier) <= 4294967295
+        return len(identifier) <= 10 and identifier.isascii() and identifier.isdigit() and 1 <= int(identifier) <= 4294967295
 
     @app.get('/')
     def index():

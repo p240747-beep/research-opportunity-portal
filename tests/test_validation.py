@@ -38,7 +38,7 @@ def test_api_errors():
     client=create_app(unavailable).test_client()
     for kwargs in [dict(json={}),dict(data='{broken',content_type='application/json'),dict(data='hello')]:
         assert client.post('/api/opportunities',**kwargs).status_code==400
-    for id in ['0','-1','abc','4294967296']:
+    for id in ['0','-1','abc','4294967296','9'*4500]:
         assert client.get('/api/opportunities/'+id).status_code==400
     assert client.get('/assets/../../.env').status_code==404
     assert client.get('/').status_code==200
