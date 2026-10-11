@@ -5,6 +5,7 @@ CN Assignment 1 - Danial Hassan, 24P-0747, BCS-5B.
 Create, list, view, edit, close/reopen and delete research opportunities. MySQL stores all records; the frontend communicates with Flask's REST API. All matching records are displayed without a ten-item limit. No frontend data is hard-coded.
 
 **GitHub Repository:** https://github.com/p240747-beep/research-opportunity-portal
+**Demo Video:** https://drive.google.com/file/d/15iyGECMvKLuWkQdS_irWyXk2Exup-nOW/view?usp=sharing
 
 ## Requirements
 
