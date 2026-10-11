@@ -6,8 +6,6 @@ Create, list, view, edit, close/reopen and delete research opportunities. MySQL 
 
 **GitHub Repository:** https://github.com/p240747-beep/research-opportunity-portal
 
-**Before submission:** add your real GitHub link, run the Postman collection yourself and record a demonstration of at most one minute. Understand/adapt the code to your own work; the assignment prohibits copied/plagiarized submissions.
-
 ## Requirements
 
 Python 3.10+, MySQL 8.0+, Postman and Git. This is a local faculty management app without authentication, intended for localhost use.
