@@ -6,3 +6,5 @@ __pycache__/
 *.log
 .postman/
 .postman/
+postman/collections/
+postman/globals/
